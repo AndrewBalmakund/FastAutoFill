@@ -1,14 +1,11 @@
 {
-   "name": "Fast Auto Fill Extension",
-   "description": "",
-   "version": "1.0",
-   "manifest_version": 3,
-   "permissions": [
-      "activeTab",
-      "scripting"
-   ],
-   "action": {},
-   "background": {
-      "service_worker": "background.js"
-   }
+  "name": "Fast Auto Fill Extension",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  }
 }
